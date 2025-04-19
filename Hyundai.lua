@@ -11,7 +11,7 @@ wait(10)
     local tween = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, goal)
     tween:Play()
 
-wait(20) 
+wait(25) 
     local tweenInfo = TweenInfo.new(2)
     local goal = {CFrame = CFrame.new(246, 2, -143)}
     local tween = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, goal)
